@@ -1,4 +1,4 @@
-# the-things-i-dont-know
+# The Things I Don't Know
 
 ## Table of Contents 
 - [Git](#git)
