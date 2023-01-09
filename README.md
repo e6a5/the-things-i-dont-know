@@ -1,6 +1,6 @@
 # the-things-i-dont-know
 
-Table of Contents 
+## Table of Contents 
 - [Git](#git)
 
 ## Git
