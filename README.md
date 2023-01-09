@@ -2,7 +2,10 @@
 
 ## Table of Contents 
 - [Git](#git)
+  - [Find the current tag](#how-to-find-the-current-tag)
+  - [Remove a directory from Git and local](#how-to-remove-a-directory-from-git-and-local) 
 - [Linux Commands](#linux-commands)
+  - [Count a word in a file](#how-to-count-occurrences-of-a-word-in-all-the-files-of-a-directory)
 
 ## Git
 ### How to find the current tag?
@@ -17,7 +20,7 @@ git commit . -m "Remove duplicated directory"
 git push origin <your-git-branch> (typically 'master', but not always)
 ```
 ## Linux Commands
-### How to count occurrences of a word in all the files of a directory?
+### How to count occurrences of a word in a file?
 ```sh
   grep -ow 'word' filename | wc -l
 ```
