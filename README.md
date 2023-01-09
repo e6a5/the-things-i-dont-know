@@ -2,7 +2,7 @@
 
 ## Table of Contents 
 - [Git](#git)
-- [Linux Commands] (#linux-commands)
+- [Linux Commands](#linux-commands)
 
 ## Git
 ### How to find the current tag?
