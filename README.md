@@ -9,6 +9,13 @@
   - [Count a word in a file](#how-to-count-occurrences-of-a-word-in-all-the-files-of-a-directory)
 
 ## Git
+### fatal: transport 'file' not allowed
+Issue link: https://vielmetti.typepad.com/logbook/2022/10/git-security-fixes-lead-to-fatal-transport-file-not-allowed-error-in-ci-systems-cve-2022-39253.html
+Solution
+```sh
+git config --global protocol.file.allow always 
+```
+
 ### How to find the current tag?
 ```sh
   git describe --tags
