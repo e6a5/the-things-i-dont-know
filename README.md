@@ -7,6 +7,8 @@
   - [How to set username and email in Git](#how-to-set-username-and-email-in-git)
 - [Linux Commands](#linux-commands)
   - [Count a word in a file](#how-to-count-occurrences-of-a-word-in-all-the-files-of-a-directory)
+- [Docker](#docker)
+	- [Procceed and delete all stopped containers](#procceed-and-delete-all-stopped-containers)
 
 ## Git
 ### fatal: transport 'file' not allowed
@@ -37,4 +39,10 @@ git config user.email "MyEmail"
 ### How to count occurrences of a word in a file?
 ```sh
   grep -ow 'word' filename | wc -l
+```
+
+## Docker
+### Procceed and delete all stopped containers
+```sh
+docker container prune -f 
 ```
