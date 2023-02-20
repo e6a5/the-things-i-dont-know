@@ -9,6 +9,8 @@
   - [Count a word in a file](#how-to-count-occurrences-of-a-word-in-all-the-files-of-a-directory)
 - [Docker](#docker)
 	- [Procceed and delete all stopped containers](#procceed-and-delete-all-stopped-containers)
+- [Redis](#redis)
+	- [Get information about redis server](#get-information-about-redis-server)
 
 ## Git
 ### fatal: transport 'file' not allowed
@@ -45,4 +47,10 @@ git config user.email "MyEmail"
 ### Procceed and delete all stopped containers
 ```sh
 docker container prune -f 
+```
+
+## Redis 
+### Get information about redis server
+```sh 
+INFO server 
 ```
