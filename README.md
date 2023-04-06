@@ -5,6 +5,7 @@
   - [Find the current tag](#how-to-find-the-current-tag)
   - [Remove a directory from Git and local](#how-to-remove-a-directory-from-git-and-local) 
   - [How to set username and email in Git](#how-to-set-username-and-email-in-git)
+  - [Compare two git branches](#compare-two-git-branches)
 - [Linux Commands](#linux-commands)
   - [Count a word in a file](#how-to-count-occurrences-of-a-word-in-all-the-files-of-a-directory)
 - [Docker](#docker)
@@ -36,6 +37,19 @@ git push origin <your-git-branch> (typically 'master', but not always)
 git config user.name "MyName"
 git config user.email "MyEmail" 
 ```
+### Compare two git branches
+```sh
+# Using double dots
+# Show all the commits that branch2 has that are not in branch1
+
+git diff branch1..branch2
+
+# Using triple dots
+# Compare the Head of branch 2 with the common ancestor of two branches 
+git diff banch1...branch2
+
+```
+
 
 ## Linux Commands
 ### How to count occurrences of a word in a file?
