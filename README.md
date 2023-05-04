@@ -6,6 +6,7 @@
   - [Remove a directory from Git and local](#how-to-remove-a-directory-from-git-and-local) 
   - [How to set username and email in Git](#how-to-set-username-and-email-in-git)
   - [Compare two git branches](#compare-two-git-branches)
+  - [Create new tag from another tag](#create-new-tag-from-another-tag)
 - [Linux Commands](#linux-commands)
   - [Count a word in a file](#how-to-count-occurrences-of-a-word-in-all-the-files-of-a-directory)
 - [Docker](#docker)
@@ -48,6 +49,12 @@ git diff branch1..branch2
 # Compare the Head of branch 2 with the common ancestor of two branches 
 git diff banch1...branch2
 
+```
+
+### Create new tag from another tag
+
+```sh
+git tag -a new_tag old_tag -m 'create new tag from old tag'
 ```
 
 
